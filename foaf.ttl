@@ -22,6 +22,6 @@
    foaf:givenName "Jakob" ;
    foaf:familyName "Steinberg" ;
    foaf:age 22 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
-   foaf:gender "male" ;
+   #foaf:gender "male" ;
    foaf:knows <http://raw.githubusercontent.com/doerthe/swt/main/foaf.ttl#da> , <http://raw.githubusercontent.com/nhdu79/fswt/main/foaf.ttl> , <https://raw.githubusercontent.com/RebekkaMa/Foundations-of-Semantic-Web-Technologies---Tutorial/main/foaf.ttl> ;
    foaf:interest dbr:Semantic_Web .

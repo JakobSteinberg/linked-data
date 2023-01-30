@@ -1,6 +1,6 @@
 @base <https://raw.githubusercontent.com/JakobSteinberg/linked-data/main/foaf.ttl> .
 
-@prefix js: <http://.../foaf.ttl#> .
+@prefix js: <https://raw.githubusercontent.com/JakobSteinberg/linked-data/main/foaf.ttl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -24,4 +24,4 @@
    foaf:age 22 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
    foaf:gender "male"
    foaf:knows http://raw.githubusercontent.com/doerthe/swt/main/foaf.ttl#da ;
-   foaf:interest dbr:Semantic_Web
+   foaf:interest dbr:Semantic_Web .

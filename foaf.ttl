@@ -1,0 +1,27 @@
+@base <> .
+
+@prefix js: <http://.../foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2022-01-30"^^xsd:date ;
+   dc:title "Jakob's FOAF Profile"@en , "Jakobs FOAF Profil"@de ;
+   foaf:primaryTopic <#js> ;
+   dc:creator <#js> .
+
+<#js> a foaf:Person ;
+   rdfs:label "Jakob Steinberg" ;
+   rdfs:comment "Student an der TU Dresden"@de ;
+   foaf:name "Jakob Steinberg" ;
+   foaf:givenName "Jakob" ;
+   foaf:familyName "Steinberg" ;
+   foaf:age 22 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
+   foaf:gender "male"
+   foaf:knows http://raw.githubusercontent.com/doerthe/swt/main/foaf.ttl#da ;
+   foaf:interest dbr:Semantic_Web

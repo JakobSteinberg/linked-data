@@ -1,4 +1,4 @@
-@base <> .
+@base <https://raw.githubusercontent.com/JakobSteinberg/linked-data/main/foaf.ttl> .
 
 @prefix js: <http://.../foaf.ttl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
